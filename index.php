@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="fullwidth1">
+				<!--<div class="fullwidth1">
 					<div class="overlay"></div>
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
@@ -27,9 +27,47 @@
 								با بیش از بیست و پنج سال سابقه در فرش دستباف
 							</button>
 						</div>
-				</div>
+				</div>-->
 			</div>
 		</div>
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="flexslider right">
+			<ul class="slides">
+				<li>
+					<img src="images/sliderd1.JPG">
+					<div class="metaSlider">
+						<h1>با بیش از بیست و پنج سال در زمینه فرش دستباف</h1>
+					</div>
+				</li>
+				<li>
+					<img src="images/sliderd2.JPG">
+					<div class="metaSlider">
+						<h1>دارای ضمانت بازگشت درصورت هر گونه نارضایتی</h1>
+					</div>
+				</li>
+				<li>
+					<img src="images/sliderd3.JPG">
+					<div class="metaSlider">
+						<h1>تحویل فوری فرش ها درب منزل</h1>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/jquery.flexslider-min.js"></script>
+<script>
+     $('.flexslider').flexslider({
+	animation: "slide",
+	controlNav: false
+});
+</script>
+
+
+
 		</br></br></br></br></br></br></br>
 	
 		<div class="container-fluid">
@@ -448,10 +486,7 @@
 					<span>کلیه ی حقوق این سایت متعلق به کارخانه قالیشویی رکن آبادی است.</span>
 				</div>
 			
-	
 		
-		
-					
 
 		
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
