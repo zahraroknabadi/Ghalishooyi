@@ -20,7 +20,7 @@
 								<div class="item">
 									<img src="images/sliderd5.JPG">
 								</div>
-							</div>	
+							</div>
 						</div>
 						<div class="meta">
 							<button class="btn pull-left" type="submit">
@@ -40,18 +40,39 @@
 					<img src="images/sliderd1.JPG">
 					<div class="metaSlider">
 						<h1>با بیش از بیست و پنج سال در زمینه فرش دستباف</h1>
+						<div class="category">
+							<a class="info" href="calltoaction.php">
+									<button class="btn btn-default">
+										ثبت سفارش
+									</button>
+							</a>
+						</div>
 					</div>
 				</li>
 				<li>
 					<img src="images/sliderd2.JPG">
 					<div class="metaSlider">
 						<h1>دارای ضمانت بازگشت درصورت هر گونه نارضایتی</h1>
+						<div class="category">
+							<a class="info" href="calltoaction.php">
+									<button class="btn btn-default">
+										ثبت سفارش
+									</button>
+							</a>
+						</div>
 					</div>
 				</li>
 				<li>
 					<img src="images/sliderd3.JPG">
 					<div class="metaSlider">
 						<h1>تحویل فوری فرش ها درب منزل</h1>
+						<div class="category">
+							<a class="info" href="calltoaction.php">
+									<button class="btn btn-default">
+										ثبت سفارش
+									</button>
+							</a>
+						</div>
 					</div>
 				</li>
 			</ul>
@@ -69,7 +90,7 @@
 
 
 		</br></br></br></br></br></br></br>
-	
+
 		<div class="container-fluid">
 				<div class="wrapper">
 					<div class="text-center">
@@ -134,13 +155,13 @@
 								<div class="panel-footer">این نوع شستشو مختص فرشهایی است که مدت زیادی شسته نشده و دچار پوسیدگی شده اند درمورد فرش های پوسیده اگر نوع شور مناسب را انتخاب نکنید ممکن است منجر به پارگی فرش شما شود یا باعث شود ریشه های فرشتان از بین برود.در این نوع شور فرش ها کاملا با دست و بدون دخالت دستگاه شسته میشوند.</div>
 							</div>
 						</div>
-						
-					
+
+
 					</div>
 				</div>
 		</div>
-		</div></br></br></br></br></br></br></br> 
-													
+		</div></br></br></br></br></br></br></br>
+
 		<div class="container-fluid">
 			<div class="wrapper">
 				<div class="row">
@@ -171,8 +192,8 @@
 				</div></br></br></br></br></br>
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<div class="paragraph">	
-							<p>فرش های دستباف مثل سایر منسوجات همانند پرده - لباس - ملحفه و ... هستند و باید حداکثر 4 تا 5 سال یک بار شسته شوند تا به کیفیت و دوام فرش کمک شود. متاسقانه عموم مردم به اشتباه فکر می کنند که فرش های دستباف نباید شسته شوند چون ممکن است در اثر شستشو رنگ قاطی کنند یا ریشه های آن ها دچار پوسیدگی شود. البته این مطلب می تواند صحیح باشد اگر فرشتان را به کسانی بدهید که رشته ی اصلی کار آن ها فرش دستباف نیست ولی اگر در انتخاب قالیشویی تحقیق کنید و با دقت بیشتری تصمیم بگیرید که فرش خود را به کدام قالیشویی بدهید نه تنها فرش های شما آسیب نمی بیند صد البته که دو تا سه برابر هم عمر فرش ها را افزایش می دهد.پاکیزگی همیشه به نو و سالم ماندن تمام وسایل کمک می کند. فرش های اعلا را می توان پس از....... </p>	
+						<div class="paragraph">
+							<p>فرش های دستباف مثل سایر منسوجات همانند پرده - لباس - ملحفه و ... هستند و باید حداکثر 4 تا 5 سال یک بار شسته شوند تا به کیفیت و دوام فرش کمک شود. متاسقانه عموم مردم به اشتباه فکر می کنند که فرش های دستباف نباید شسته شوند چون ممکن است در اثر شستشو رنگ قاطی کنند یا ریشه های آن ها دچار پوسیدگی شود. البته این مطلب می تواند صحیح باشد اگر فرشتان را به کسانی بدهید که رشته ی اصلی کار آن ها فرش دستباف نیست ولی اگر در انتخاب قالیشویی تحقیق کنید و با دقت بیشتری تصمیم بگیرید که فرش خود را به کدام قالیشویی بدهید نه تنها فرش های شما آسیب نمی بیند صد البته که دو تا سه برابر هم عمر فرش ها را افزایش می دهد.پاکیزگی همیشه به نو و سالم ماندن تمام وسایل کمک می کند. فرش های اعلا را می توان پس از....... </p>
 							<div class="next">
 								<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">ادامه مطلب</button>
 							</div>
@@ -224,8 +245,8 @@
 			</div>
 		</div>
 		</br></br></br></br></br></br></br>
-	
-	
+
+
 		<div class="container-fluid">
 			<div class="wrapper">
 				<div class="title">
@@ -277,7 +298,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		</br></br></br></br></br></br>
 		<div class="container-fluid">
 			<div class="wrapper">
@@ -362,7 +383,7 @@
 				</div>
 			</div>
 		</div></br></br></br></br></br></br></br></br>
-		
+
 		<div class="container-fluid">
 			<div class="row">
 				<div class="headerBox">
@@ -384,8 +405,8 @@
 							<a href="https://www.crocothemes.net"></a>
 							<style>.mapouter{overflow:hidden;height:180px;width:280px;}.gmap_canvas {background:none!important;height:180px;width:280px;}</style>
 						</div>
-						<p><span class="glyphicon glyphicon-map-marker"></span>&nbspدفتر مرکزی : اصفهان-خیابان حکیم-بازارچه نو شرقی-پلاک268 
-						</br><span class="glyphicon glyphicon-home"></span>&nbspکارخانه : میدان لاله-کیلومتر10 اتوبان فرودگاه-هزار متر بعد از تابلو زمان آباد-خیابان گلستان110 
+						<p><span class="glyphicon glyphicon-map-marker"></span>&nbspدفتر مرکزی : اصفهان-خیابان حکیم-بازارچه نو شرقی-پلاک268
+						</br><span class="glyphicon glyphicon-home"></span>&nbspکارخانه : میدان لاله-کیلومتر10 اتوبان فرودگاه-هزار متر بعد از تابلو زمان آباد-خیابان گلستان110
 						</br><span class="glyphicon glyphicon-earphone"></span>&nbspتلفن:03135702221-09138830883</p>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -441,7 +462,7 @@
 						  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>                        
+							<span class="icon-bar"></span>
 						  </button>
 						  <a class="navbar-brand" href="index.html">قالیشویی رکن آبادی</a>
 						</div>
@@ -473,7 +494,7 @@
 									  <button type="button" class="btn btn-default" data-dismiss="modal" style="color:#05abad;">بستن</button>
 									</div>
 								  </div>
-								  
+
 								</div>
 							  </div>
 
@@ -485,10 +506,10 @@
 				<div class="footer">
 					<span>کلیه ی حقوق این سایت متعلق به کارخانه قالیشویی رکن آبادی است.</span>
 				</div>
-			
-		
 
-		
+
+
+
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		</body>

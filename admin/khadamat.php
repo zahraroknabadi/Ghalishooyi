@@ -6,7 +6,7 @@
 
 			if ($result->num_rows > 0) {
 				?>
-								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" style="margin-bottom:100px;">
+								<div id="main_container" class="col-lg-9 col-md-9 col-sm-9 col-xs-12" style="margin-bottom:100px;">
 									<h3 style="color:#05abad; font-family:IRANSans; text-align:center; margin-bottom:100px; margin-top:100px;">لیست خدمات و قیمت ها</h3>
 									<table class="table table-bordered">
 										<thead>

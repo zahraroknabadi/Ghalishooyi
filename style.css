@@ -17,16 +17,16 @@ a,a:link,a:visited,a:hover{
 	margin:auto;
 }
 .header a{
-	text-align:right; 
+	text-align:right;
 	direction:rtl;
 	float:right;
 }
 .header .a .btn{
 	background-color:#05abad;
-	float:left; 
-	color:#fff; 
-	font-family:IRANSans; 
-	margin-top:80px; 
+	float:left;
+	color:#fff;
+	font-family:IRANSans;
+	margin-top:80px;
 	margin-left: 35px;
 }
 
@@ -41,6 +41,7 @@ a,a:link,a:visited,a:hover{
 
 .flexslider {
 		width: 100%;
+				border: none !important;
 }
 .flexslider img{
 		-webkit-filter: blur(2px);
@@ -93,16 +94,31 @@ a,a:link,a:visited,a:hover{
 		padding: 12px 18px 10px;
 		font-weight: 300;
 }
-/* 
-.flexslider li .category span {
-		background: #e43837;
+
+.flexslider li .category a .btn {
+		background: #05abad;
+		color: #fff;
 		margin-top: 17px;
 		padding: 8px 12px 0;
 		font-size: 0.9em;
 		font-weight: 300;
 		height: 26px;
+		text-align: right;
+		position:absolute;
+		right: 3%;
+		bottom:100%;
+		padding:15px 30px 30px 30px;
+		border-radius: 5px;
+		border:#05abad;
 }
- */
+
+.flexslider li .category a .btn :hover,
+ .flexslider li .category a .btn :link,
+ .flexslider li .category a .btn :visited{
+	text-decoration: none !important;
+	color:#fff !important;
+}
+
 .flexslider li h1,
 .flexslider li h2,
 .flexslider li .category p,
@@ -307,7 +323,7 @@ width:35px;
 
 a#prev:hover, a#next:hover {
 color:#FFF;
-text-shadow:.5px 0px #b14943;  
+text-shadow:.5px 0px #b14943;
 }
 
 
@@ -450,9 +466,9 @@ float: left;
 }
 .meta .btn{
 	border:0px;
-	text-align:center; 
+	text-align:center;
 	font-family:IRANSans;
-	color:#fff !important; 
+	color:#fff !important;
 	font-size:12px;
 	padding: 10px 40px;
 	background-color:#05abad;
@@ -558,7 +574,7 @@ transition-delay:.2s;
 	color:#fff;
 	font-family:IRANSans;
 	text-align:center;
-	 margin-bottom: 15px; 
+	 margin-bottom: 15px;
 	 float:right;
 	 width:100%;
 	 padding-top:10px;
@@ -581,7 +597,7 @@ font-size: 24px;
 text-align:right;
 }
 .panel-body1 .glyphicon{
-color:yellow; 
+color:yellow;
 font-size: 17px;
 }
 .panel-body span{
@@ -589,7 +605,7 @@ font-size: 24px;
 text-align:right;
 }
 .panel-body .glyphicon{
-	color:yellow; 
+	color:yellow;
 	font-size: 17px;
 }
 .panel-footer{
@@ -695,16 +711,16 @@ text-align:right;
 }
 .Box{
 border: 1px solid #e1e0e0;
-border-radius:0px; 
+border-radius:0px;
 direction: rtl;
 }
 .Box_footer{
-text-align:center; 
-color:#434444; 
+text-align:center;
+color:#434444;
 line-height: 40px;
   background-color:#f6f6f6;
 font-family:IRANSans;
-	
+
 }
 .fullwidth{
 	position:relative;
@@ -720,8 +736,8 @@ font-family:IRANSans;
 	color:#434444;
 	direction: rtl;
 	font-family:IRANSans;
-	font-size:18px; 
-	text-align:justify; 
+	font-size:18px;
+	text-align:justify;
 }
 .next .btn{
 	background-color:#05abad;
@@ -768,9 +784,9 @@ background-color:rgba(0,0,0,0.5);
 transition:all .4s ease-in-out
 }
 .hovereffect1 .overlay1 p{
-	color:#fff; 
-	padding-top:30%; 
-	line-height: 20px; 
+	color:#fff;
+	padding-top:30%;
+	line-height: 20px;
 	font-family:IRANSans;
 }
 .hovereffect1 img {
@@ -892,13 +908,13 @@ color:#e9e9e9;
 .contactBox .form-control{
 	text-align:right;
 	font-family:IRANSans;
-	color:#434444; 
+	color:#434444;
 	font-size:12px;
 }
 .contactBox .btn{
 	text-align:center;
 	font-family:IRANSans;
-	color:#fff; 
+	color:#fff;
 	font-size:12px;
 	padding:8px 30px;
 	background-color:#05abad;

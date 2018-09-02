@@ -1,5 +1,5 @@
 <?php include'body.php'?>
-			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+			<div id="main_container"  class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 				<h3 style="color:#05abad; font-family:IRANSans; text-align:center; margin-bottom:100px; margin-top:100px;">پیگیری سفارش</h3>
 				<form name="form1" method="post" action="checkOrder.php" >
 					<div class="row">

@@ -1,75 +1,63 @@
-$(document).ready(function(){
-	/* $(".delete").click(function(){
-		var tr = $(this).closest('tr'),
-		del_id = $(this).attr('id');//del_id
-		  $.ajax({
-			url: "deleteUser.php",
-			method:"post",
-			dataType:"text",
-			success:function(result){
-				if($result == true ){
-					tr.css("background-color" , "tomato");
-					tr.fadeOut(500, function(){
-						$(this).remove();
-					});
-				}else{
-					//do nothing
-				}
-			}
-		}); 
-		
-		
-	}); */
-	
+
+
 	init();
-	
-	
+
+
+
+
+
+function init() {
+
+$(document).on('click','.menu-list a',function(e){
+	var url = $(this).attr( "href" )
+	e.preventDefault();
+	$("#loading").fadeIn();
+	$( "#main_container" ).load( url + " #main_container" );
+	setTimeout(function() {
+		$("#loading").fadeOut();
+	}, 2500);
+	window.history.pushState("object or string", "Title", url);
 });
 
-
-
-	function init() {
-
-	$(document).on('click','.menu-list a',function(e){
-		var url = $(this).attr( "href" )
-		e.preventDefault();
-		$("#loading").fadeIn();
-		$( "#main_container" ).load( url + " #main_container" );
-		setTimeout(function() {
-			$("#loading").fadeOut();
-
-		}, 2500);
-		window.history.pushState("object or string", "Title", url);
-
-	});
-
-	}
-function messageFailed(message){
-	$('#message').html("<div class='alert alert-danger'>"+message+"</div>");
+}
+	//$('#message').html("<div class='alert alert-danger'>"+message+"</div>");
+function successDel(message){
+	$('#modalDel').show();
+	$('#btnDel').click(function(){
+		$('#modalDel').hide();
+	})
 }
 
-function messageSuccess(message){
-	$('#message').html("<div class='alert alert-success'>"+message+"</div>");
+function successSub(message){
+	$('#modalSub').show();
+	$('#btnSub').click(function(){
+		$('#modalSub').hide();
+	})
 }
 
+function failedAdmin(message){
+	$('#modalAdmin').show();
+	$('#btnAdmin').click(function(){
+		$('#modalAdmin').hide();
+	})
+}
 
 
 function deleteUser(user_id){
 	$.get("phpAjax.php",
-		{	
+		{
 			action:"deleteUser",
 			id:user_id
 		},
 		function(data){
-			
+
 			if(data.result == true){
 				$('#user_'+user_id).css("background-color" , "#d08888").delay(500).fadeOut(500, function(){
-					this.remove() 
-					messageFailed(".کاربر مورد نظر با موفقیت حذف شد");
+					this.remove()
+					successDel();
 				});
 			}else{
-				alert('متاسفیم!شما امکان حذف ادمین اصلی را ندارید.');
-					alert.addClass("alert");
+				failedAdmin();
 			}
 		},"json");
 }
@@ -77,16 +65,16 @@ function deleteUser(user_id){
 
 function deleteMessage(message_id){
 	$.get("phpAjax.php",
-		{	
+		{
 			action:"deleteMessage",
 			id:message_id
 		},
 		function(data){
-			
+
 			if(data.result == true){
 				$('#message_'+message_id).css("background-color" , "#d08888").delay(500).fadeOut(500, function(){
 					this.remove();
-					messageFailed(".پیام مورد نظر با موفقیت حذف شد");
+					successDel();
 				});
 			}else{
 				alert('خطا ! ');
@@ -98,16 +86,16 @@ function deleteMessage(message_id){
 
 function deleteOrder(order_id){
 	$.get("phpAjax.php",
-		{	
+		{
 			action:"deleteOrder",
 			id:order_id
 		},
 		function(data){
-			
+
 			if(data.result == true){
 				$('#order_'+order_id).css("background-color" , "#d08888").delay(500).fadeOut(500, function(){
 					this.remove();
-					messageFailed(".سفارش مورد نظر با موفقیت حذف شد");
+					successDel();
 				});
 			}else{
 				alert('خطا ! ');
@@ -119,16 +107,16 @@ function deleteOrder(order_id){
 
 function deleteWash(wash_id){
 	$.get("phpAjax.php",
-		{	
+		{
 			action:"deleteWash",
 			id:wash_id
 		},
 		function(data){
-			
+
 			if(data.result == true){
 				$('#wash_'+wash_id).css("background-color" , "#d08888").delay(500).fadeOut(500, function(){
 					this.remove();
-					messageFailed(".نوع شستشوی مورد نظر با موفقیت حذف شد");
+					successDel();
 				});
 			}else{
 				alert('خطا ! ');
@@ -140,16 +128,16 @@ function deleteWash(wash_id){
 
 function deleteCarpet(carpet_id){
 	$.get("phpAjax.php",
-		{	
+		{
 			action:"deleteCarpet",
 			id:carpet_id
 		},
 		function(data){
-			
+
 			if(data.result == true){
 				$('#carpet_'+carpet_id).css("background-color" , "#d08888").delay(500).fadeOut(500, function(){
 					this.remove();
-					messageFailed(".نوع فرش مورد نظر با موفقیت حذف شد");
+					successDel();
 				});
 			}else{
 				//alert('خطا ! ');
@@ -161,16 +149,16 @@ function deleteCarpet(carpet_id){
 
 function deleteService(service_id){
 	$.get("phpAjax.php",
-		{	
+		{
 			action:"deleteService",
 			id:service_id
 		},
 		function(data){
-			
+
 			if(data.result == true){
 				$('#service_'+service_id).css("background-color" , "#d08888").delay(500).fadeOut(500, function(){
 					this.remove();
-					messageFailed(".نوع خدمت مورد نظر با موفقیت حذف شد");
+					successDel();
 				});
 			}else{
 				//alert('خطا ! ');
@@ -191,13 +179,13 @@ $(function () {
 		dataType: 'json',
 		data: $('form').serialize(),
 		success: function (data) {
-			
+
 			if(data.result == true){
-				messageSuccess(".اطلاعات مورد نظر با موفقیت ثبت شد");
+				successSub();
 			}else{
-				//alert('خطا ! ');
+				alert('خطا ! ');
 			}
-			
+
 		}
 	  });
 
@@ -205,24 +193,24 @@ $(function () {
 
 });
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-	  
+
+
+
+
+
+
+
+
+
+
+
 /* function addWash(){
 	$.get("phpAjax.php",
-		{	
+		{
 			action:"addWash"
 		},
 		function(data){
-			
+
 			if(data.result == true){
 				data: $('form').serialize();
 				success: function () {
@@ -233,6 +221,3 @@ $(function () {
 			}
 		},"json");
 }  */
-
-
-

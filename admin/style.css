@@ -21,6 +21,54 @@
 	font-family:IRANSans;
 	color:#434444;
 }
+#headerDel{
+	font-family:IRANSans;
+	text-align:right;
+	color:#05abad;
+}
+#successDel{
+	font-family:IRANSans;
+	text-align:right;
+	color:#434444;
+}
+#btnDel{
+	font-family:IRANSans;
+	background-color:#05abad !important;
+	color:#fff !important;
+	float:left;
+}
+#headerSub{
+	font-family:IRANSans;
+	text-align:right;
+	color:#05abad;
+}
+#successSub{
+	font-family:IRANSans;
+	text-align:right;
+	color:#434444;
+}
+#btnSub{
+	font-family:IRANSans;
+	background-color:#05abad !important;
+	color:#fff !important;
+	float:left;
+}
+#headerAdmin{
+	font-family:IRANSans;
+	text-align:right;
+	color:#05abad;
+}
+#successAdmin{
+	font-family:IRANSans;
+	text-align:right;
+	color:#434444;
+}
+#btnAdmin{
+	font-family:IRANSans;
+	background-color:#05abad !important;
+	color:#fff !important;
+	float:left;
+}
 .navbar{
 	background-color: #05abad; 
 	border-color: #05abad;
@@ -306,6 +354,11 @@ border-color: #fff;}
   text-align: right;
 }
 .nav-side-menu a li{
+  text-decoration: none;
+  color: #fff;
+  font-family:IRANSans;
+}
+.nav-side-menu i li{
   text-decoration: none;
   color: #fff;
   font-family:IRANSans;
