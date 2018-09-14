@@ -1,0 +1,11 @@
+<?php
+//HEADER
+//include'header.php';
+//SIDEBAR
+//include'sidebar.php';
+//MAINCONTAINER 
+//include'mainContainer.php';
+//FOOTER
+include'body.php';
+include'footer.php';
+ ?>
